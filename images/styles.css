@@ -1,0 +1,101 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #0e0c6e;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Header & Footer Styles */
+.header, .footer {
+    background-color: #2d199b;
+    color: #a0b6e3;
+    text-align: center;
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+.header h1, .footer p {
+    margin: 0;
+    background-color: #2d199b;
+}
+
+/* Sub-Headers */
+.header1, .header2, .header3 {
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.header1 {
+    background-color: #fafe2e;
+    color: #ecedef;
+    
+}
+
+.header2 {
+    background-color: #2d199b;
+    color: #333; /* Changed for better readability */
+}
+
+/* Main Content */
+.main {
+    padding: 15px;
+}
+
+.news article, .matches article, .scores, .players article, .gallery {
+    background-color: #3c47a8;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Image Gallery */
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.statistics {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.statistics, .statistics th, .statistics td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.statistics th, .statistics td {
+    padding: 8px;
+}
+
+.statistics th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+

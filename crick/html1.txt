@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .header, .footer { background-color: #2d199b; color: rgb(236, 237, 243); padding: 5px; text-align: center; }
+        .main { padding: 10px; }
+        
+        .header3, .footer { background-color: #ffffff; color: rgb(236, 237, 243); padding: 1px; text-align: center; }
+        .main { padding: 75px; }
+
+        .header1, .footer { background-color: #2f36ac; color: rgb(236, 237, 243); padding: 5px; text-align: center; }
+        .main { padding: 10px; }
+
+        .header2, .footer { background-color: #ffffff; color: rgb(236, 237, 243); padding: 2pt; text-align: center; }
+        .main { padding: 75px; }
+
+        .news, .matches, .scores, .players, .gallery { margin-bottom: 20px; }
+        .news article, .matches article, .players article, .gallery img { margin-bottom: 15px; }
+        .image-container {
+        text-align: center; /
+    }
+    .image-container img {
+        width: 5%; /* Slightly less than 25% to fit in one line, adjust as needed */
+        margin: 0.2%; /* Small margin for spacing, adjust as needed */
+        vertical-align: super;
+        display:inline-block;
+    }
+    
+    </style> 
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Crickup</h1>
+    </div>
+</div>
+<div class="header2">
+
+</div>
+
+    <div class="header1">
+        <p>Welcome to our cricket club website. Follow us for the latest updates, scores, and more.</p>
+    </div>
+
+    <div class="header2">
+
+    </div>
+
+    <div class="main">
+        <div class="news">
+            <h2>Latest News</h2>
+            <article>
+                <div class="gallery">
+                    
+                    <div class="cricket-world-cup-champions">
+                        <h2>2023 Cricket World Cup Champions - Australia</h2>
+                        <p>
+                            In an exhilarating display of skill, determination, and teamwork, Australia clinched the 2023 Cricket World Cup, adding another glorious chapter to their storied cricketing history. Dominating the tournament from start to finish, the Australian cricket team showcased a blend of experienced mastery and youthful vigor, overcoming the challenges posed by the world's best cricketing nations.
+                        </p>
+                        <p>
+                            Led by their charismatic captain, whose leadership on and off the field was instrumental in navigating through high-pressure matches, Australia demonstrated why they are considered a powerhouse in the world of cricket. The team's bowlers, with their lethal pace and cunning spin, alongside the batsmen, who dazzled with their audacity and finesse, were key to their triumph.
+                        </p>
+                        <p>
+                            The final match, held at the iconic Narendra modhi stadium, saw Australia put up a formidable total, thanks to heroic innings by Wade. In response, their opponents fought valiantly but were ultimately outclassed by Australia's precise and disciplined bowling attack. The victory was sealed with a spectacular catch, igniting celebrations among Australian fans worldwide.
+                        </p>
+                        <p>
+                            This victory marks Australia's 6th World Cup win, solidifying their legacy as one of the greatest cricket teams in history. As we celebrate this monumental achievement, we look forward to the team's future endeavors, confident in their ability to inspire and entertain fans around the globe.
+                        </p>
+                        <p>
+                            Congratulations to the Australian cricket team, the 2023 Cricket World Cup champions!
+                        </p>
+                    </div>
+                    
+    <img src="images/pic1.avif" alt="Image 1 Description">
+   
+   
+</div>
+                <p>News content goes here...</p>
+            </article>
+            <!-- Add more news articles here -->
+        </div>
+
+        <div class="matches">
+            <h2>Upcoming Matches</h2>
+            <article>
+                <h3>Match Title</h3>
+                <p>Match details like teams, date, and time</p>
+            </article>
+            <!-- Add more match details here -->
+        </div>
+
+        <div class="scores">
+            <h2>Live Scores</h2>
+            <p>Embed live scores widget or manually update scores here.</p>
+        </div>
+
+        <div class="players">
+            <h2>Player Profiles</h2>
+            <article>
+                <h3>Kumar Sangakkara</h3>
+                <p>Profile and statistics</p>
+                <table> match ,score </table>
+            </article>
+            <!-- Add more player profiles here -->
+        </div>
+
+        <div class="gallery">
+            <h1>Kumar Sangakkara</h1>
+            <img src="images/sanga.webp" alt="Kumar Sangakkara" class="profile-pic">
+            <p><strong>Country:</strong> Sri Lanka</p>
+            <p><strong>Roles:</strong> Wicketkeeper-batsman</p>
+            <p><strong>International Career:</strong> 2000-2015</p>
+        </div>
+        
+        <h2>Statistics</h2>
+        <table class="statistics">
+            <tr>
+                <th>Match Type</th>
+                <th>Matches</th>
+                <th>Runs</th>
+                <th>Average</th>
+                <th>100s/50s</th>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>134</td>
+                <td>12400</td>
+                <td>57.40</td>
+                <td>38/52</td>
+            </tr>
+            <tr>
+                <td>T20</td>
+                <td>56</td>
+                <td>1356</td>
+                <td>31.04</td>
+                <td>0/08</td>
+            </tr>
+            <tr>
+                <td>ODI</td>
+                <td>404</td>
+                <td>14234</td>
+                <td>42.0</td>
+                <td>25/93</td>
+                
+            </tr>
+
+            
+
+            <!-- Add more rows for ODI, T20, etc. -->
+        </table>
+
+    </div>
+
+    <div class="footer">
+        <p>© 2024 Cricket Club. All rights reserved.</p>
+    </div>
+</body>
+</html>
